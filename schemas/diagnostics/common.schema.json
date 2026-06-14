@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/mslo/diagnostics/common.schema.json",
+  "title": "MSLO diagnostics common definitions",
+  "$defs": {
+    "utcTimestamp": { "type": "string", "format": "date-time" },
+    "severity": { "type": "string", "enum": ["info", "warning", "error"] },
+    "mode": { "type": "string", "enum": ["diagnostic", "sample", "report_only"] },
+    "runId": { "type": "string", "minLength": 1 },
+    "monotonicMs": { "type": "integer", "minimum": 0 }
+  }
+}
