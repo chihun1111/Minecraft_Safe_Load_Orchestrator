@@ -1,0 +1,13 @@
+{
+  "run_id": "sample-run-001",
+  "schema_version": "1.0",
+  "mode": "sample",
+  "started_at_utc": "2026-01-15T12:00:00Z",
+  "ended_at_utc": "2026-01-15T12:03:00Z",
+  "status": "completed",
+  "minecraft_version": "1.21.1",
+  "mod_loader": "neoforge",
+  "mod_loader_version": "21.1.0",
+  "minecraft_instance": "sample-instance",
+  "notes": "Fake sample demonstrating a client resource reload freeze caused by disk I/O saturation."
+}
